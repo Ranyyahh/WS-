@@ -1,0 +1,11 @@
+CREATE DATABASE RegForm_DB;
+Use RegForm_DB;
+
+CREATE TABLE RegForm_tbl(
+    ID INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    Name varchar (255) NOT NULL,
+    Email varchar (255) NOT NULL,
+    Gender varchar (255) NOT NULL,
+    Mobile_Phone INT NOT NULL,
+    Password varchar (255) NOT NULL
+    );
